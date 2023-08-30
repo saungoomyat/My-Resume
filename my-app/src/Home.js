@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
     return (
         <div id="home">
-            <h2 style={{ textAlign: "center" }}>Why Did I make this?</h2>
+            <h2 style={{ textAlign: "center" }}>Welcome to my resume!</h2>
             <p style={{ textAlign: "center" }}>There are way too many dog types and when the conversation about dogs come up.</p>
             <p style={{ textAlign: "center" }}>I have this breed, I have that breed and I have no idea what everyone is talking about.</p>
             <p style={{ textAlign: "center" }}>So I made this for reference.</p>

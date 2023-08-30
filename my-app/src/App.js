@@ -1,8 +1,11 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import './App.css';
+// import './App.css';
 import Home from "./Home";
 import NavBar from "./NavBar";
+import Education from "./Education";
+import Experience from "./Experience";
+import Skills from "./NavBar";
 
 function App() {
     
@@ -10,21 +13,18 @@ function App() {
       <div>
           <NavBar />
           <Switch>
-              <Route path="/home">
-                  <Home />
-              </Route>
-              {/* <Route exact path="/dogs">
-                  <DogList />
-              </Route>
-              <Route path="/dogs/new">
-                  <NewDog />
-              </Route>
-              <Route path="/dogs/:id">
-                  <DogDetail />
-              </Route>
               <Route exact path="/">
                   <Home />
-              </Route> */}
+              </Route>
+              <Route exact path="/education">
+                  <Education />
+              </Route>
+              <Route path="/experience">
+                  <Experience />
+              </Route>
+              <Route path="/skills">
+                  <Skills />
+              </Route>
               <Route path="*">
                   <h1>404 not found</h1>
               </Route>
