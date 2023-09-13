@@ -1,11 +1,11 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 // import './App.css';
 import Home from "./Home";
 import NavBar from "./NavBar";
 import Education from "./Education";
 import Experience from "./Experience";
-import Skills from "./NavBar";
+import Skills from "./Skills";
 
 function App() {
     
